@@ -1,4 +1,7 @@
-select * from nhanvien;
+use btl;
+select * from nhanvien
+where MaNV = 'NV001';
+
 select * from khachhang;
 select * from thuoc;
 select * from chi_tiet_hoa_don;
@@ -145,7 +148,7 @@ FROM danhmuc dm
 LEFT JOIN thuoc t ON dm.MaDanhMuc = t.MaDanhMuc
 GROUP BY dm.TenDanhMuc
 ORDER BY TongSoLuong DESC;
-
+use btl;
 -- 20: Lấy thông tin về các danh mục có số lượng thuốc nhiều nhất
 SELECT dm.TenDanhMuc, COUNT(t.MaThuoc) AS SoLuongThuoc
 FROM danhmuc dm
