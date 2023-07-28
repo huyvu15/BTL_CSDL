@@ -1,6 +1,6 @@
 use btl;
-select * from nhanvien
-where MaNV = 'NV001';
+SELECT * FROM nhanvien
+WHERE MaNV = 'NV001';
 
 select * from khachhang;
 select * from thuoc;
@@ -8,6 +8,7 @@ select * from chi_tiet_hoa_don;
 select * from hoadon;
 select * from nhacungcap;
 select * from danhmuc;
+
 -- 20 câu truy vấn
 -- 0: 
 SELECT t.TenThuoc, COUNT(cthd.MaHD) AS SoLuongHoaDon
