@@ -131,10 +131,10 @@ WHERE ncc.DiaChi = 'Quảng Ninh';
 select nv.MaNV, nv.TenNV, nv.SDT, nv.GT
 from nhanvien nv join hoadon hd on nv.MaNV = hd.MaNV join khachhang kh on kh.MaKH = hd.MaHD
 where kh.TenKH = 'Nguyen Thi X';
-
+use btl;
 -- 17: liệt kê các nhà cung cấp thuốc trong 'Danh mục A'
 select * from danhmuc;
-select ncc.MaNCC, TenNCC
+select ncc.MaNCC, TenNCC, t.MaThuoc
 from nhacungcap ncc join thuoc t on ncc.MaNCC = t.MaNCC join danhmuc dm on dm.MaDanhMuc = t.MaDanhMuc
 where TenDanhMuc = 'Danh mục A';
 
