@@ -1,0 +1,30 @@
+- Chấp nhận dư thừa nhưng dư thừa phải có lợi ích,phải nói rõ dư thừa nhằm mục đích gì và các tác dụng gì. Kiểm soát dữ thừa khi code, lúc nhập dữ liệu(Viết các hàm trong sql để kiểm tra)
+
+
+- Ví dụ khi nhập vào mã sv hãy viết code như nào để nó tự động nảy ra tên sinh viên
+cái nào dư thừa phải làm thế nào để nó tính toán để không cần nhập
+chức năng phải là động từ
+
+- Thông thường lược đồ phải đưa về dạng chuản boyce-codd thì mới ít bị dư thừa nhất có thể
+
+- Nếu tách lược đồ tùy ý phải kiểm tra lại và chứng minh là nó không mất mát thông tin và nó phải bảo toàn tập phụ thuộc hàm, 
+
+- phụ thuộc hàm còn tổng quát hơn cả khóa. 2 lược đồ giống nhau trên tập thuộc tính U nhưng khác nhau trên tập phụ thuộc hàm -> Mô tả 2 cơ sở dữ liệu quan hệ khác nhau
+-> Tạo csdl qh bằng ERD vẫn còn khá nhiều nhược điểm do khó kiểm tra dư thừa dữ liệu, hay mất mát thông tin. 
+
+- Bài tập lớn gk tạo các bảng bằng  ERD do tự quyết nên dư thừa dữ liệu khá nhiều BTL ck khắc phục nhước điểm cho BTL gk
+
+- Tính bao đóng dùng để kiểm tra suy dẫn logic
+
+- Tinh chỉnh: điều chỉnh thêm 1 số thuộc tính nữa vào tập thuộc tính (các thuộc tính này không phải là khóa, không có liên hệ với các thuộc tính khác qua tập phụ thuộc hàm, không ảnh hương đển thiết kế thêm vào để dễ làm hơn thôi nhưng theo nguyên tắc là không được  
+
+- 1 cái nữa là việc tìm phủ tối thiểu có vẻ là quan trọng nếu cơ sở dữ liệu quan hệ lớn, còn nếu bé thì có thể dễ dàng nhìn ra. Thông thường cơ sở dữ liệu bé thường là tập phủ tối thiểu
+bằng luôn tập phụ thuộc hàm ban đầu(do mình chọn thôi nhưng phải tối ưu)
+
+- Phi chỉnh(đen lắm mới gặp cái này): trong trường hợp nếu như khi tìm khóa của U xong rồi , mà khi ra các lược đồ con không có lược đồ con nào chưa khóa của U(theo như bài mình là có 
+MaHD, MaThuoc) thì mình phải tự thêm vào cho lược đồ con nào đó có khóa của U để nó giống  trong lý thuyết. Bất đắc dĩ mới làm như này, tuy nhiên bài của bạn vẫn đạt điểm số tối đa. 
+-> Gặp cái này thì có lẽ làm sai chỗ nào rồi hoặc là lược đồ bị dư thừa, bị mất mát thông tin
+
+- Kiểm tra dạng chuẩn thì kiểm tra y trang định nghĩa 
+
+- 
