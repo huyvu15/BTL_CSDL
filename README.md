@@ -1,6 +1,8 @@
 # BTL_CSDL
 
-Em đã quan sát và nhận thấy nhiều cửa hàng thuốc hàng đầu tại Việt Nam như Long
+Giảng viên hướng dẫn: TS.Nguyễn Thị Thanh Huyền.
+
+Theo quan sát và nhận thấy nhiều cửa hàng thuốc hàng đầu tại Việt Nam như Long
 Châu, Pharmarcity, Tâm Việt, siêu thị thuốc Việt,... có hệ thống quản lý cửa hàng
 chuyên nghiệp và bài bản, đảm bảo hoạt động kinh doanh hiệu quả và duy trì uy tín
 trên thị trường. Tuy nhiên, vẫn có nhiều tiệm thuốc khác chưa chú trọng vào việc áp
@@ -112,3 +114,8 @@ select * from danhmuc;
 
 -- 20: Lấy thông tin về các danh mục có số lượng thuốc nhiều nhất
 
+# Các chức năng trong chương trình
+![](https://github.com/huyvu15/BTL_CSDL/blob/main/photo/chuc_nang.jpg)
+
+# Thiết kế cơ sở dữ liệu thu được từ lược đồ
+![](https://github.com/huyvu15/BTL_CSDL/blob/main/photo/dig-e.png)
